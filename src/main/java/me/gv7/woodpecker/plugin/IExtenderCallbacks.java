@@ -29,5 +29,6 @@ public interface IExtenderCallbacks {
     public void registerExploitCodeExec(IExploitCodeExec expCodeExec);
     public void registerExploitGetShell(IExploitGetShell expGetShell);
     public void registerExploitJNDInject(IExploitJNDInject expJNDInject);
+    public void registerExploit(List<IExploit> exploitList);
     public void registerPayloadGenerator(List<IPayloadGenerator> payloadGeneratorList);
 }
