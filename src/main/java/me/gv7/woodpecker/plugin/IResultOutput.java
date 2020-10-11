@@ -63,7 +63,7 @@ public interface IResultOutput {
     public void errorPrintln(String msg); // [x]
 
     /**
-     * 打印开始信息，会在开始信息添加"[>] "。一般用于某个模块开始执行时打印的信息。
+     * 打印开始信息，会在开始信息添加"[&#x3e;] "。一般用于某个模块开始执行时打印的信息。
      *
      * @param msg 开始信息
      */

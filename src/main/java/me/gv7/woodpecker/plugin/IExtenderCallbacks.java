@@ -36,7 +36,7 @@ public interface IExtenderCallbacks {
     /**
      * 设置插件路径
      *
-     * @param path
+     * @param path 插件路径
      */
     public void setPluginPath(String path);
 

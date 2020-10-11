@@ -13,7 +13,7 @@ package me.gv7.woodpecker.plugin;
  * 此接口包含许多辅助方法，扩展可以使用这些方法
  * 可以协助处理插件编写遇到的各种常见问题。
  *
- *  扩展可以调用<code>IExtenderCallbacks.getPluginHelper<code/>这个接口的一个实例。
+ *  扩展可以调用<code>IExtenderCallbacks.getPluginHelper</code>这个接口的一个实例。
  */
 public interface IPluginHelper {
     /**
