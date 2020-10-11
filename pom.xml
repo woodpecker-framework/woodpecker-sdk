@@ -8,20 +8,23 @@
     <artifactId>woodpecker-sdk</artifactId>
     <version>0.1.0.beta1</version>
 
+    <name>woodpecker-sdk</name>
+    <url>https://github.com/woodpecker-framework/woodpecker-sdk</url>
+    <description>woodpecker-sdk is the SDK that developers use to develop woopecker framework plug-ins.</description>
+
     <!--licenses信息-->
     <licenses>
         <license>
-            <name>The Apache Software License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-            <distribution>repo</distribution>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
         </license>
     </licenses>
 
     <!--scm信息-->
     <scm>
-        <url>https://woodpecker.gv7.me</url>
-        <connection>scm:git:https://github.com/woodpecker-framework/woodpecker-sdk.git</connection>
-        <developerConnection>scm:git:https://github.com/woodpecker-framework/woodpecker-sdk.git</developerConnection>
+        <connection>scm:git:git://github.com/woodpecker-framework/woodpecker-sdk.git</connection>
+        <developerConnection>scm:git:ssh://github.com:woodpecker-framework/woodpecker-sdk.git</developerConnection>
+        <url>http://github.com/woodpecker-framework/woodpecker-sdk/tree/master</url>
     </scm>
 
     <!--发布者信息-->
