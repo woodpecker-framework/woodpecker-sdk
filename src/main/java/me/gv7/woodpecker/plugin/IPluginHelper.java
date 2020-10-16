@@ -24,6 +24,13 @@ public interface IPluginHelper {
     public IArgs createArgs();
 
     /**
+     * 创建参数和对应使用说明对象，方便IExploit模块和IPayloadGenerator模块自定义参数。
+     *
+     * @return 参数和对应使用说明对象
+     */
+    public IArgsUsageBinder createArgsUsageBinder();
+
+    /**
      * 创建扫描结果实例，可用于<code>IPoc.doCheck</code>中。
      *
      * @return 扫描结果实例

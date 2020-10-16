@@ -20,6 +20,43 @@ import java.util.List;
 */
 public interface IExtenderCallbacks {
     /**
+     * 低危漏洞等级
+     */
+    public final static int VUL_SEVERITY_LOW = 0;
+    /**
+     * 中危漏洞等级
+     */
+    public final static int VUL_SEVERITY_MEDIUM = 1;
+    /**
+     * 高危漏洞等级
+     */
+    public final static int VUL_SEVERITY_HIGH = 2;
+    /**
+     * 远程命令执行或者远程代码执行漏洞类型
+     */
+    public final static String VUL_CATEGORY_RCE = "RCE";
+    /**
+     * 模版注入漏洞类型
+     */
+    public final static String VUL_CATEGORY_SSTI = "SSTI";
+    /**
+     * JNDI注入漏洞类型
+     */
+    public final static String VUL_CATEGORY_JNDI_INJECT = "JNDI inject";
+    /**
+     * XXE漏洞类型
+     */
+    public final static String VUL_CATEGORY_XXE = "XXE";
+    /**
+     * SSRF漏洞类型
+     */
+    public final static String VUL_CATEGORY_SSRF = "SSRF";
+    /**
+     * SQL注入漏洞类型
+     */
+    public final static String VUL_CATEGORY_SQL_INJECT = "SQL Inject";
+
+    /**
      * 设置插件名称
      *
      * @param name 插件名称
@@ -76,7 +113,7 @@ public interface IExtenderCallbacks {
     public void setVulAutor(String autor);
 
     /**
-     * 设置漏洞危害等级，分别有high(高危)，middle(中危)，low(低危)。woodpecker原则上只编写高危漏洞。
+     * 设置漏洞危害等级，分别有high(高危)，medium(中危)，low(低危)。woodpecker原则上只编写高危漏洞。
      *
      * @param severity 漏洞危害等级
      */

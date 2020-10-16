@@ -25,9 +25,9 @@ public interface IPayloadGenerator {
     /**
      * 框架会调用该方法获取荷载生成器自定义参数列表
      *
-     * @return 自定义参数列表
+     * @return 自定义参数列表和使用说明绑定对象
      */
-    public List<IArgs> getCutomArgs();
+    public IArgsUsageBinder getPayloadCutomArgs();
 
     /**
      * 框架会调用该方法生成具体的荷载
