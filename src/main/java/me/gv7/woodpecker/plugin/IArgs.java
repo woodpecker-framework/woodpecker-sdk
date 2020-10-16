@@ -9,6 +9,8 @@ package me.gv7.woodpecker.plugin;
  * provided that this usage does not violate the license terms for those products.
  */
 
+import java.util.List;
+
 /**
  * 该接口用于<code>IExploit</code>和<code>IPayloadGenerator</code>模块的传输参数
  */
@@ -22,17 +24,25 @@ public interface IArgs {
      */
     public final int ARG_TYPE_INT = 1;
     /**
+     * 参数类型为double型
+     */
+    public final int ARG_TYPE_DOUBLE = 2;
+    /**
      * 参数类型为端口
      */
-    final int ARG_TYPE_PORT = 2;
+    final int ARG_TYPE_PORT = 3;
     /**
      * 参数类型为IP
      */
-    final int ARG_TYPE_IP = 3;
+    final int ARG_TYPE_IP = 4;
     /**
      * 参数类型为HTTP URL
      */
-    final int ARG_TYPE_HTTP_URL = 4;
+    final int ARG_TYPE_HTTP_URL = 5;
+    /**
+     * 参数类型为枚举型
+     */
+    final int ARG_TYPE_ENUM = 6;
 
     /**
      * 设置参数名
@@ -56,11 +66,16 @@ public interface IArgs {
     void setDefaultValue(String defaultValue);
 
     /**
+     * 设置枚举值,当值的类型为枚举型时必须设置！
+     */
+    void setEnumValue(List<String> enumValue);
+
+    /**
      * 设置参数是否必须设置
      *
      * @param is 是否必须设置
      */
-    void setMastSetup(boolean is);
+    void setRequired(boolean is);
 
     /**
      * 设置参数描述，描述参数的含义
