@@ -29,4 +29,5 @@ target/*
 *.iml
 out/*
 docs/*
+docs
 .DS_Store
