@@ -15,7 +15,7 @@ import java.util.List;
 * 这个接口被woodpecker框架用来传递一组回调给插件
 * 插件可以通过该回调对框架进行某种操作。
 *
-* 当一个插件被加载时，woodpecker框架调用IPlugin#PluginMain方法，并传递实例
+* 当一个插件被加载时，woodpecker框架调用IVulPlugin#VulPluginMain方法，并传递实例
 * <code>IExtenderCallbacks</code>，供插件设置插件信息，漏洞信息和注册相关组件。
 */
 public interface IVulPluginCallbacks {
