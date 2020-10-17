@@ -18,7 +18,7 @@ import java.util.List;
 * 当一个插件被加载时，woodpecker框架调用IPlugin#PluginMain方法，并传递实例
 * <code>IExtenderCallbacks</code>，供插件设置插件信息，漏洞信息和注册相关组件。
 */
-public interface IExtenderCallbacks {
+public interface IVulPluginCallbacks {
     /**
      * 低危漏洞等级
      */

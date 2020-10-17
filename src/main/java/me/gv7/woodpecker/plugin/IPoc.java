@@ -17,8 +17,8 @@ public interface IPoc {
      * 精准检测漏洞，并返回扫描结果。
      *
      * @param target 检测目标对象。
-     * @param iResultOutput 输出对象，用于打印各类信息。
+     * @param resultOutput 输出对象，用于打印各类信息。
      * @return 扫描结果，改扫描结果将会显示在框架Poc模块的结果Table中。
      */
-    public IScanResult doCheck(ITarget target, IResultOutput iResultOutput);
+    public IScanResult doCheck(ITarget target, IResultOutput resultOutput);
 }

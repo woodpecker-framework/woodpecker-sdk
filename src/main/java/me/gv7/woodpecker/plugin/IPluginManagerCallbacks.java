@@ -18,5 +18,5 @@ public interface IPluginManagerCallbacks {
      *
      * @param plugin 插件对象
      */
-    public void registerPlugin(IPlugin plugin);
+    public void registerVulPlugin(IVulPlugin plugin);
 }

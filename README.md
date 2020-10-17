@@ -4,7 +4,13 @@
 `woodpecker-sdk`是`woodpecker-framework`的开发SDK,里面定义了`woodpecker-framework`开放的接口。
 开发者可以通过接口编写插件实现自己想要的功能。
 
-## 0x02 使用
+## 0x02 编译
+
+```
+mvn clean
+```
+
+## 0x03 使用
 
 Maven
 

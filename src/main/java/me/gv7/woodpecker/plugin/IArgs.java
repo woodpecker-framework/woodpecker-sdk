@@ -40,9 +40,13 @@ public interface IArgs {
      */
     final int ARG_TYPE_HTTP_URL = 5;
     /**
+     * 参数类型为address型(protocol://host:port/path)
+     */
+    final int ARG_TYPE_ADDRESS = 6;
+    /**
      * 参数类型为枚举型
      */
-    final int ARG_TYPE_ENUM = 6;
+    final int ARG_TYPE_ENUM = 7;
 
     /**
      * 设置参数名
