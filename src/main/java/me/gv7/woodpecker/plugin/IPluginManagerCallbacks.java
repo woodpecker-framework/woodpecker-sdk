@@ -14,9 +14,13 @@ package me.gv7.woodpecker.plugin;
  */
 public interface IPluginManagerCallbacks {
     /**
-     * 注册插件
+     * 注册漏洞插件
      *
-     * @param plugin 插件对象
+     * @param plugin 漏洞插件对象
      */
     public void registerVulPlugin(IVulPlugin plugin);
+    /**
+     * 注册辅助插件
+     */
+    public void registerHelperPlugin(IHelperPlugin helperPlugin);
 }
