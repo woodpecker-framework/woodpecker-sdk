@@ -19,8 +19,10 @@ public interface IPluginManagerCallbacks {
      * @param plugin 漏洞插件对象
      */
     public void registerVulPlugin(IVulPlugin plugin);
+
     /**
      * 注册辅助插件
+     * @param helperPlugin 辅助插件对象
      */
     public void registerHelperPlugin(IHelperPlugin helperPlugin);
 }

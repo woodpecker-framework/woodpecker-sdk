@@ -12,7 +12,7 @@ package me.gv7.woodpecker.plugin;
 import java.util.List;
 
 /**
- * 该接口用于<code>IExploit</code>和<code>IPayloadGenerator</code>模块的传输参数
+ * 该接口用于<code>IExploit</code>,<code>IPayloadGenerator</code>和<code>IHelper</code>模块的传输参数
  */
 public interface IArgs {
     /**
@@ -71,6 +71,7 @@ public interface IArgs {
 
     /**
      * 设置枚举值,当值的类型为枚举型时必须设置！
+     * @param enumValue 枚举值列表
      */
     void setEnumValue(List<String> enumValue);
 

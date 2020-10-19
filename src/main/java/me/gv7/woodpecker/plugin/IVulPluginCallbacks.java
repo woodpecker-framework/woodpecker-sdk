@@ -61,28 +61,28 @@ public interface IVulPluginCallbacks {
      *
      * @param name 插件名称
      */
-    void setPluginName(String name);
+    void setVulPluginName(String name);
 
     /**
      * 设置插件版本
      *
      * @param version 插件版本
      */
-    void setPluginVersion(String version);
+    void setVulPluginVersion(String version);
 
     /**
      * 设置插件路径
      *
      * @param path 插件路径
      */
-    public void setPluginPath(String path);
+    public void setVulPluginPath(String path);
 
     /**
      * 设置插件作者
      *
-     * @param autor 插件作者
+     * @param author 插件作者
      */
-    public void setPluginAutor(String autor);
+    public void setVulPluginAuthor(String author);
 
     /**
      * 设置漏洞名称
@@ -108,9 +108,9 @@ public interface IVulPluginCallbacks {
     /**
      * 设置漏洞作者
      *
-     * @param autor 漏洞作者
+     * @param author 漏洞作者
      */
-    public void setVulAutor(String autor);
+    public void setVulAuthor(String author);
 
     /**
      * 设置漏洞危害等级，分别有high(高危)，medium(中危)，low(低危)。woodpecker原则上只编写高危漏洞。
