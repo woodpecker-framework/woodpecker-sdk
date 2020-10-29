@@ -7,7 +7,7 @@
 ## 0x02 编译
 
 ```
-mvn clean
+mvn clean package
 ```
 
 ## 0x03 使用

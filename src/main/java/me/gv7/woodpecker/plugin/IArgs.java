@@ -47,6 +47,14 @@ public interface IArgs {
      * 参数类型为枚举型
      */
     final int ARG_TYPE_ENUM = 7;
+    /**
+     * 参数类型为布尔型
+     */
+    final int ARG_TYPE_BOOLEAN = 8;
+    /**
+     * 参数类型为字典型，值为[a,b,c...]或一个文件
+     */
+    final int ARG_TYPE_DICT = 9;
 
     /**
      * 设置参数名

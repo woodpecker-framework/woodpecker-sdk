@@ -33,5 +33,5 @@ public interface IHelper {
      * @param customArgs 自定义参数
      * @param resultOutput 输出对象，用于打印各类信息。
      */
-    public void doHelp(Map<String, String> customArgs, IResultOutput resultOutput);
+    public void doHelp(Map<String, Object> customArgs, IResultOutput resultOutput);
 }
