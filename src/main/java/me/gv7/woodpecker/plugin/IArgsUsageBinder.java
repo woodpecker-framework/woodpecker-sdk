@@ -18,7 +18,7 @@ public interface IArgsUsageBinder {
      *
      * @param argsList 参数列表
      */
-    public void setArgsList(List<IArgs> argsList);
+    public void setArgsList(List<IArg> argsList);
 
     /**
      * 设置使用说明

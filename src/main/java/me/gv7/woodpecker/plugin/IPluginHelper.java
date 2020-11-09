@@ -21,7 +21,7 @@ public interface IPluginHelper {
      *
      * @return 参数对象
      */
-    public IArgs createArgs();
+    public IArg createArg();
 
     /**
      * 创建参数和对应使用说明对象，方便IExploit模块和IPayloadGenerator模块自定义参数。

@@ -1,7 +1,7 @@
 package me.gv7.woodpecker.plugin;
 
 /*
- * @(#)IArgs.java
+ * @(#)IArg.java
  *
  * Copyright woodpecker framework. All rights reserved.
  *
@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * 该接口用于<code>IExploit</code>,<code>IPayloadGenerator</code>和<code>IHelper</code>模块的传输参数
  */
-public interface IArgs {
+public interface IArg {
     /**
      * 参数类型为String类型
      */
