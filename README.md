@@ -18,12 +18,12 @@ Maven
 <dependency>
   <groupId>me.gv7.woodpecker</groupId>
   <artifactId>woodpecker-sdk</artifactId>
-  <version>0.1.0.beta1</version>
+  <version>0.1.0.beta4</version>
 </dependency>
 ```
 
 Gradle
 
 ```
-implementation 'me.gv7.woodpecker:woodpecker-sdk:0.1.0.beta1'
+implementation 'me.gv7.woodpecker:woodpecker-sdk:0.1.0.beta4'
 ```
