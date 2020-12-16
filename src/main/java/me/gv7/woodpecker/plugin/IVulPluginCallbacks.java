@@ -181,4 +181,17 @@ public interface IVulPluginCallbacks {
      * @param payloadGeneratorList 荷载生成器列表，即<code>IPayloadGenerator</code>实现类列表
      */
     public void registerPayloadGenerator(List<IPayloadGenerator> payloadGeneratorList);
+    /**
+     * 获取DNSLog管理者
+     *
+     * @return DNSLog管理者
+     */
+    public IDNSLog getDNSLogManager();
+
+    /**
+     * 获取HttpLog管理者
+     *
+     * @return HttpLog管理者
+     */
+    public IHttpLog getHttpLogManager();
 }
