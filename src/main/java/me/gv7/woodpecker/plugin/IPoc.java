@@ -20,5 +20,5 @@ public interface IPoc {
      * @param resultOutput 输出对象，用于打印各类信息。
      * @return 扫描结果，改扫描结果将会显示在框架Poc模块的结果Table中。
      */
-    public IScanResult doVerify(ITarget target, IResultOutput resultOutput);
+    public IScanResult doVerify(ITarget target, IResultOutput resultOutput) throws Throwable;
 }

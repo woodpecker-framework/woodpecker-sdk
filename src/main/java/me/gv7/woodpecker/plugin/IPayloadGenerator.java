@@ -35,5 +35,5 @@ public interface IPayloadGenerator {
      * @param customArgs 自定义参数列表
      * @param resultOutput 结果输出对象，用于打印信息到界面
      */
-    public void generatorPayload(Map<String, Object> customArgs, IResultOutput resultOutput);
+    public void generatorPayload(Map<String, Object> customArgs, IResultOutput resultOutput) throws Throwable;
 }
