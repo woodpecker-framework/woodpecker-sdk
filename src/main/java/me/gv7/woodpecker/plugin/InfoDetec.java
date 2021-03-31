@@ -16,11 +16,12 @@ import java.util.Map;
  */
 public interface InfoDetec {
     /**
-     * 框架会调用该方法获取该信息收集模块的选项卡标题，推荐通过信息探测具体的功能设置返回值，比如version(探测目标版本),vul path(探测漏洞路径)等等
+     * 框架会调用该方法获取信息收集模块的选项卡标题，推荐通过信息探测具体的功能设置返回值，比如version(探测目标版本),vul path(探测漏洞路径)等等
      *
-     * @return 该信息探测模块选项卡标题
+     * @return 信息探测模块选项卡标题
      */
     public String getInfoDetecTabCaption();
+    
     /**
      * 框架会调用该方法获取该信息探测模块自定义参数列表
      *
