@@ -14,6 +14,12 @@ package me.gv7.woodpecker.plugin;
  */
 public interface IPluginManagerCallbacks {
     /**
+     * 注册信息探测插件
+     *
+     * @param plugin 信息探测插件对象
+     */
+    public void registerInfoDetecPlugin(InfoDetecPlugin plugin);
+    /**
      * 注册漏洞插件
      *
      * @param plugin 漏洞插件对象
