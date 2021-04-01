@@ -18,7 +18,7 @@ public interface IPluginManagerCallbacks {
      *
      * @param plugin 信息探测插件对象
      */
-    public void registerInfoDetecPlugin(InfoDetecPlugin plugin);
+    public void registerInfoDetectorPlugin(InfoDetectorPlugin plugin);
     /**
      * 注册漏洞插件
      *

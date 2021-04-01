@@ -11,11 +11,11 @@ package me.gv7.woodpecker.plugin;
 /**
  * 每个信息探测插件都需要实现该接口
  */
-public interface InfoDetecPlugin {
+public interface InfoDetectorPlugin {
     /**
      * 插件Main方法，也是插件的入口。用于设置插件的各项信息，注册插件相关组件。
      *
-     * @param infoDetecPluginCallbacks 回调对象
+     * @param infoDetectorPluginCallbacks 回调对象
      */
-    public void InfoDetecPluginMain(InfoDetecPluginCallbacks infoDetecPluginCallbacks);
+    public void InfoDetectorPluginMain(InfoDetectorPluginCallbacks infoDetectorPluginCallbacks);
 }

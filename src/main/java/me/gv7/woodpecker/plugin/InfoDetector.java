@@ -14,20 +14,20 @@ import java.util.Map;
 /**
  * 信息探测接口，插件通过实现该接口，可实现对目标全方位信息探测。
  */
-public interface InfoDetec {
+public interface InfoDetector {
     /**
      * 框架会调用该方法获取信息收集模块的选项卡标题，推荐通过信息探测具体的功能设置返回值，比如version(探测目标版本),vul path(探测漏洞路径)等等
      *
      * @return 信息探测模块选项卡标题
      */
-    public String getInfoDetecTabCaption();
+    public String getInfoDetectorTabCaption();
     
     /**
      * 框架会调用该方法获取该信息探测模块自定义参数列表
      *
      * @return 该信息探测模块自定义参数列表和使用说明绑定对象
      */
-    public IArgsUsageBinder getInfoDetecCustomArgs();
+    public IArgsUsageBinder getInfoDetectorCustomArgs();
 
     /**
      * Woodpecker框架会调用该方法，执行具体的信息探测操作，并将执行结果输出到界面。

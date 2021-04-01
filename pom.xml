@@ -6,7 +6,7 @@
 
     <groupId>me.gv7.woodpecker </groupId>
     <artifactId>woodpecker-sdk</artifactId>
-    <version>0.2.0</version>
+    <version>0.2.1</version>
 
     <name>woodpecker-sdk</name>
     <url>https://github.com/woodpecker-framework/woodpecker-sdk</url>
