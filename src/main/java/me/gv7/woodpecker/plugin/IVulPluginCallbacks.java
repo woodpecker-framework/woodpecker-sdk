@@ -194,4 +194,11 @@ public interface IVulPluginCallbacks {
      * @return HttpLog管理者
      */
     public IHttpLog getHttpLogManager();
+
+    /**
+     * 获取配置
+     *
+     * @return 获取配置
+     */
+    public IConfig getConfig();
 }
